@@ -1,0 +1,94 @@
+.main-header{
+	display: block;
+}
+
+.main-header > .top-header{
+	background: #0a0a0a;
+	padding: 10px 0;
+}
+.main-header > .top-header .lang-list{
+	display: block;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.main-header > .top-header .lang-list > li{
+	display: inline-block;
+	margin-right: 15px;
+}
+.main-header > .top-header .lang-list > li > a{
+	color: #fff;
+}
+.main-header > .top-header .nav-shortcut{
+	display: block;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+}
+.main-header > .top-header .nav-shortcut > li{
+	display: inline-block;
+	margin-right: 15px;
+}
+.main-header > .top-header .nav-shortcut > li > a{
+	color: #fff;
+}
+.section-block{
+	padding:60px;
+}
+.section-block .tittle-section h1{
+	font-weight: bold;
+	font-size: 22px;
+	border-bottom: 3px double #a81919;
+	margin-bottom: 30px;
+}
+
+
+.product-item{
+    display: block;
+    border: 1px solid #ddd;
+}
+
+.product-item .img-product{
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+    padding:15px;
+    height: 270px;
+    overflow: hidden;
+}
+
+.product-item .img-product img{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    width: 250px;
+}
+
+.product-item .description-product{
+    padding:15px;
+}
+
+.product-item .description-product h3{
+    padding:0px;
+    margin: 0px;
+    margin-bottom: 5px;
+    font-size:18px;
+    font-weight: bold;
+}
+.product-item .description-product .tags-category{
+    padding:5px;
+    margin: 0px;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #fff;
+    background: #a81919;
+    display: inline-block;
+}
+.product-item .description-product .price{
+    display: block;
+    margin: 0px;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #a81919;
+}
